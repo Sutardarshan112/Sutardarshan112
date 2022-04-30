@@ -1,0 +1,25 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication7
+{
+    public class Program
+    {
+        public Program()
+        {
+            Console.WriteLine("Constructor called");
+        }
+        ~Program()
+        {
+            Console.WriteLine("Destructor called");
+        }
+        public static void Main(string[] args)
+        {
+            Program p = new Program();
+           
+        }
+         Console.ReadLine();
+    }
+}
